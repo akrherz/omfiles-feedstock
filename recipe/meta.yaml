@@ -16,7 +16,7 @@ build:
   # unknown windows failures whilst doing staged-receipts PR
   # will effort fixing once feedstock is created
   skip: true  # [win]
-  number: 0
+  number: 1
 
 requirements:
   build:

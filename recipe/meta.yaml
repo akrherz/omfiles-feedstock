@@ -1,4 +1,4 @@
-{% set version = "1.1.2" %}
+{% set version = "1.2.0" %}
 {% set name = "omfiles" %}
 
 package:
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 00fbff49ae1a22591f0489d4169fbd7826e0d91b4745061947f55ec7506c38d0
+  sha256: ca42ebb260de73e937cb4a72d1867e34e7046f19105202c01d1455c72abf6895
   patches:
     # open-meteo/python-omfiles/pull/114 attempts to get CFLAGS passing correct
     - 114.patch
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

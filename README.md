@@ -261,4 +261,5 @@ Feedstock Maintainers
 =====================
 
 * [@akrherz](https://github.com/akrherz/)
+* [@terraputix](https://github.com/terraputix/)
 

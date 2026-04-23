@@ -8,9 +8,6 @@ package:
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: ca42ebb260de73e937cb4a72d1867e34e7046f19105202c01d1455c72abf6895
-  patches:
-    # open-meteo/python-omfiles/pull/114 attempts to get CFLAGS passing correct
-    - 114.patch
 
 build:
   number: 0
